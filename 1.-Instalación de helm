@@ -1,0 +1,27 @@
+apt update
+
+apt install curl
+
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+
+chmod 700 get_helm.sh
+
+./get_helm.sh
+
+
+imagen = instalacion_helm.png
+
+
+Para tener la autocompletion  de helm hacemos lo siguiente
+
+bash:
+
+helm completion bash > /etc/bash_completion.d/helm
+
+source <(helm completion bash)
+
+zsh :
+
+source <(helm completion zsh)
+
+helm completion zsh > "${fpath[1]}/_helm"
