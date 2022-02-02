@@ -25,3 +25,8 @@ zsh :
 source <(helm completion zsh)
 
 helm completion zsh > "${fpath[1]}/_helm"
+
+
+para mas informacion ir al siguiente link:
+
+https://helm.sh/docs/helm/helm_completion/
