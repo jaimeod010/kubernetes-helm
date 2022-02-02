@@ -11,6 +11,11 @@ chmod 700 get_helm.sh
 
 imagen = instalacion_helm.png
 
+Una vez instalado podemos ver la version instalada con el siguiente comando:
+
+helm version
+
+(foto version)
 
 Para tener la autocompletion  de helm hacemos lo siguiente
 
