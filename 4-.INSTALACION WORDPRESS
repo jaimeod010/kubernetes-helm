@@ -1,1 +1,11 @@
+4.- Caso práctico: Instalar wordpress
 
+4.1.- Vamos a parametrizar el wordpress, indicando dos parámetros: el tipo de servicio y el nombre del blog
+Como tipo de servicio vamos a usar NodePort y le vamos a dar a nuestro blog el nombre de "JAIMEOD010"
+
+helm install wordpress bitnami/wordpress --set service.type=NodePort --set wordpressBlogName=JAIMEOD010
+
+
+4.2.- Comprobación de los objetos creados.
+
+4.3.- Acceso a la aplicación
