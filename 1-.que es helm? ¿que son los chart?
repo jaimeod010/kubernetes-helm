@@ -1,0 +1,10 @@
+ ¿Que es Helm ?
+ 
+ Helm es un software que nos ayuda a gestionar la aplicación completa montada en kubernetes: empaquetado, instaladores, control de la aplicación en producción, etc.
+ Nos permite empaquetar aplicaciones completas y gestionar el ciclo completo de despliegue de dicha aplicación.
+
+ ¿Que son los chart?
+
+ Un chart es el nombre  de formato de empaquetado que usa Helm, el chart contiene colección de archivos que describen un conjunto de recursos que nos permite
+ desplegar una aplicación en Kubernetes.
+ 
